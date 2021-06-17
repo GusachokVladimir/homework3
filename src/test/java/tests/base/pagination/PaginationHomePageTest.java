@@ -32,7 +32,7 @@ public class PaginationHomePageTest extends BaseTest {
     }
 
     @Test
-    public void checkWaitToBeClickable(){
+    public void checkWaitToBeSelected(){
         basePage.goToUrl(PAGINATION_HOME_PAGE_URL);
         paginationHomePage.waitToBeSelected();
     }
