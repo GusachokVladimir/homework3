@@ -26,6 +26,10 @@ public class BasePage {
         String window1 = driver.getWindowHandle();
         Set<String> currentWindows = driver.getWindowHandles();
 
+        if (currentWindows.size() == 0){
+            return;
+        }
+
         String window2 = null;
 
         for (String window : currentWindows) {
