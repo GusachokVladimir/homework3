@@ -38,8 +38,7 @@ public class BasePage {
             driver.switchTo().window(window2);
             driver.close();
             driver.switchTo().window(window1);
-        } else
-            driver.close();
+        }
     }
 
     public WebElement waitElementsIsVisible(WebElement element) {
