@@ -8,5 +8,6 @@ public class Constant {
 
     public static class Urls{
         public static final String PAGINATION_HOME_PAGE_URL = "https://pagination.js.org/";
+        public static final String INDEX_PAGE_URL = "http://127.0.0.1:5500/index.html";
     }
 }

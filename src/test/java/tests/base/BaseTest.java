@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import pages.base.BasePage;
+import pages.base.index.IndexPage;
 import pages.base.pagination.PaginationHomePage;
 
 import static common.Config.CLEAR_COOKIES;
@@ -16,6 +17,7 @@ public class BaseTest {
     protected BasePage basePage = new BasePage(driver);
 
     protected PaginationHomePage paginationHomePage = new PaginationHomePage(driver);
+    protected IndexPage indexPage = new IndexPage(driver);
 
     @AfterClass
     public void clearCookiesAndLocalStorage() {
