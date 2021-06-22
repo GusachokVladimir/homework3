@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="TestWait">
+        <groups>
+            <run>
+                <include name="alert"/>
+                <include name="closePage"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.base.pagination.PaginationHomePageTest"/>
+        </classes>
+    </test>
+</suite>
